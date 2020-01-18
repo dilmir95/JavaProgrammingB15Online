@@ -6,7 +6,7 @@ public class OfficeHour1202 {
 
     public static void main(String[] args) {
 
-
+            Scanner scan = new Scanner(System.in);
         String item = "Eco Dot (3rd Gen) Charcoal";
 
         int indexOfOpeningPar = item.indexOf("(");

@@ -22,7 +22,9 @@ public class Task127V2 {
             for (int i = 0; i <inhabitants.length ; i++) {
                 inhabitants[i]= inhabitants[i]/2;
 
+
             }
+
         }while(!Arrays.equals(zero,inhabitants));
 
         System.out.println("Day "+day+" "+Arrays.toString(zero));
