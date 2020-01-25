@@ -11,8 +11,11 @@ public class Task44 {
         System.out.println("Print age:");
         int age = scan.nextInt();
 
+
+
+
         if(age<2){
-            System.out.println("ineligible");
+            System.out.println("idi naxuy");
         }else if(age==2){
             System.out.println("toddler");
         }else if(age>=3 && age<=5){

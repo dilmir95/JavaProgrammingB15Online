@@ -21,6 +21,14 @@ public class OfficeHour {
         String todaysTopic = "Big boys write java codes";
         System.out.println("today's topic is: \n"+ todaysTopic);
         char myNine = '9';
+        int x = 25;
+        int y = 20;
+        int iphone = 1000;
+
+
+
+
+
 
 
     }

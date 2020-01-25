@@ -3,7 +3,7 @@ package day42;
 public class Movie {
 
     private String name;
-     private double length;
+    private double length;
     private String type;
 
     public Movie(String name, double length, String type) {

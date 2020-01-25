@@ -9,10 +9,12 @@ public class CarShopping {
         String carBrand = "Corolla";
         int budget = 40000;
         int carPrice = 30000;
-        if(carBrand.equals("corolla") || carBrand.equals("Tesla") && budget>=carPrice){
-            System.out.println("Car aquired");
+        if(carBrand.equalsIgnoreCase("corolla") || carBrand.equals("Tesla") && budget>=carPrice){
+            System.out.println("Car buy");
         }else{
-            System.out.println("not what i am looking for");
+            System.out.println("not my car");
+
+
         }
     }
 }
