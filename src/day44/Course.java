@@ -2,8 +2,8 @@ package day44;
 
 public class Course {
 
-    private String name;
-    private String type;
+     String name;
+     String type;
 
     public static int counter;
 

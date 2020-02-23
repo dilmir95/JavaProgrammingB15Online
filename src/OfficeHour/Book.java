@@ -1,4 +1,4 @@
-package replit;
+package OfficeHour;
 
 public class Book {
 

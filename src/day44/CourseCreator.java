@@ -2,6 +2,10 @@ package day44;
 
 import day43.Coffee;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class CourseCreator {
 
     public static void main(String[] args) {
@@ -18,6 +22,12 @@ public class CourseCreator {
 
         System.out.println(Course.counter);
 
+        List<Course> list1 = new ArrayList<>(Arrays.asList(c1,c2,c3,c4,c5));
 
+        for(Course each: list1){
+            if(each.name.equalsIgnoreCase("java")){
+                System.out.println(each);
+            }
+        }
     }
 }

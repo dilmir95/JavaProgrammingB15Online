@@ -1,5 +1,7 @@
 package replit;
 
+import OfficeHour.Book;
+
 public class BookAction {
     public static void main(String[] args) {
 
@@ -11,10 +13,13 @@ public class BookAction {
         b1.addChapter("Taking Over",20);
 
 
-        System.out.println(b1.tableOfContents);
+        //System.out.println(b1.tableOfContents);
         System.out.println(b1.getPages());
 
         System.out.println(b1.toString());
+
+
+
 
     }
 }
