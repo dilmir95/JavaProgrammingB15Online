@@ -13,7 +13,6 @@ public class ReadingFilePractice {
 
         List<String> readingFile = Files.readAllLines(Paths.get("src/day63/EmployeeData.txt"));
         Map<Integer, String> idNamePair = new HashMap<>();
-
         for (String eachLine : readingFile){
            // System.out.println(eachLine);
             String[] splitted = eachLine.split(",");

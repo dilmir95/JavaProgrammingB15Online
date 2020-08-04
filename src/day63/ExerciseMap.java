@@ -15,6 +15,8 @@ public class ExerciseMap {
         for(String eachName : groupLst){
             nameAndCharCountPair.put(eachName, eachName.length());
         }
+
+        System.out.println(nameAndCharCountPair);
         
 
 

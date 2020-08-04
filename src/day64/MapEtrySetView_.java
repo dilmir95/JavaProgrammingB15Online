@@ -33,19 +33,12 @@ public class MapEtrySetView_ {
         Collection<String> allMaleNames = new HashSet<>();
 
         for (Map.Entry<String,String> eachEntry : allMap){
-            if(eachEntry.getValue().equalsIgnoreCase("female")){
-             allFemaleNames.add(eachEntry.getKey())   ;
-             eachEntry.setValue("Queen");
-            }else{
-                allMaleNames.add(eachEntry.getKey());
-                eachEntry.setValue("King");
-            }
-
+            System.out.println(eachEntry);
         }
 
-        System.out.println("allMaleNames = " + allMaleNames);
-        System.out.println("allFemaleNamesNames = " + allFemaleNames);
-        System.out.println("allEmployeeMap = " + employeeMap);
+//        System.out.println("allMaleNames = " + allMaleNames);
+//        System.out.println("allFemaleNamesNames = " + allFemaleNames);
+//        System.out.println("allEmployeeMap = " + employeeMap);
 
 
     }

@@ -8,6 +8,7 @@ public class JustIfStatement {
 
         System.out.println("what is the current spped?");
         int currentSpeed = scan.nextInt();
+
         System.out.println("what is the speed limit");
         int speedLimit = scan.nextInt();
         if(currentSpeed>= speedLimit){
